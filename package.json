@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "",
+  "description": "",
+  "contributors": [
+  ],
+  "license": "all rigts reserved",
+  "dependencies": {
+    "stylus": "0.54.2"
+  },
+  "scripts": {
+    "bundle-css": "stylus -w default.styl --import style/index.styl -o default.css --include-css"
+  },
+  "browserify": {
+    "transform": [
+    ]
+  },
+  "devDependencies": {
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

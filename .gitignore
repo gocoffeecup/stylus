@@ -1,0 +1,15 @@
+_gitignore
+node_modules
+*~
+\#*
+*.gz
+*.tar.gz
+*.log
+*.swp
+*.marks
+*.css
+*.tmp
+.bfydir*
+*.hg
+*.a
+*.autosave
